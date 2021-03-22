@@ -1,15 +1,15 @@
-## **Код для подсчета бонуса**
+## **РљРѕРґ РґР»СЏ РїРѕРґСЃС‡РµС‚Р° Р±РѕРЅСѓСЃР°**
 
-public class Main {
-    public static void main(String[] args) {
-        int payment = <сумма платежа>;
-        int bonus;
-        if(payment >= 1000){
-            bonus = payment / 100;
-        } else {
-            bonus = 0;
+    public class Main {
+        public static void main(String[] args) {
+            int payment = <Г±ГіГ¬Г¬Г  ГЇГ«Г ГІГҐГ¦Г >;
+            int bonus;
+            if(payment >= 1000){
+                bonus = payment / 100;
+            } else {
+                bonus = 0;
+            }
+            System.out.println(bonus);
+
         }
-        System.out.println(bonus);
-
     }
-}
